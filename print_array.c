@@ -13,7 +13,9 @@
  */
 void print_array(const int *array, size_t size)
 {
-for (size_t i = 0; i < size; i++)
+	size_t i;
+
+for (i = 0; i < size; i++)
 {
 printf("%d%s", array[i], (i < size - 1) ? ", " : "");
 }
